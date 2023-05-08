@@ -1,0 +1,194 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* #################Navbar################################# */
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+.fa-cart-shopping {
+  padding-left: 15px;
+  margin: auto;
+}
+
+.fa-user {
+  padding-left: 15px;
+  margin: auto;
+}
+
+.logo {
+  font-weight: 300;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-part {
+  font-weight: 900;
+}
+
+.header-bar {
+  margin-left: 144px;
+  margin-right: 144px;
+}
+
+.cnt-cont {
+  position: relative;
+}
+
+.cart-cnt {
+  margin-right: 15px;
+  position: absolute;
+  right: 0;
+  top: -7px;
+}
+
+/* ##############Carousel##########################  */
+
+#carousel-section {
+  width: 89%;
+  height: 350px;
+  margin: auto;
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+/* ##############clothing and accessory section##########################  */
+
+#clothing-wrapper,
+#accessory-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #d3d3d3;
+}
+
+.hdg {
+  background-color: #4b0082;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+#heading1,
+#heading2 {
+  color: #fff;
+  font-size: 26px;
+  margin: auto;
+  margin-left: 144px;
+}
+
+#heading1 {
+  font-weight: 500;
+}
+
+#heading2 {
+  font-weight: 500;
+}
+
+.cloth-card,
+.acc-card {
+  width: 15%;
+  height: auto;
+  margin: 30px 10px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cloth-card:hover,
+.acc-card:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+img {
+  width: 100%;
+}
+
+.info-sec {
+  padding-left: 10px;
+  margin: 10px auto;
+}
+
+h1 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: rgb(27, 25, 25);
+}
+
+p {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+}
+
+h3 {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #009688;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 930px) {
+  .cloth-card,
+  .acc-card {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cloth-card,
+  .acc-card {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cloth-card,
+  .acc-card {
+    width: 35%;
+  }
+  h1 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cloth-card,
+  .acc-card {
+    width: 50%;
+  }
+}
+
+/* ##############footer##########################  */
+
+.footer-container,
+.footer-div,
+.py-5 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer img {
+  width: 150px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

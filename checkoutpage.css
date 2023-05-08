@@ -1,0 +1,152 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* #################Navbar################################# */
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+.fa-cart-shopping {
+  padding-left: 15px;
+  margin: auto;
+}
+
+.fa-user {
+  padding-left: 15px;
+  margin: auto;
+}
+
+.logo {
+  font-weight: 300;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-part {
+  font-weight: 900;
+}
+
+.header-bar {
+  margin-left: 144px;
+  margin-right: 144px;
+}
+
+.cnt-cont {
+  position: relative;
+}
+
+.cart-cnt {
+  margin-right: 15px;
+  position: absolute;
+  right: 0;
+  top: -7px;
+}
+
+/* ################# Main conatiner ################################# */
+#check-container {
+  display: flex;
+  justify-content: space-between;
+}
+.item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.img-container {
+  margin-right: 10px;
+}
+
+.checkout-title {
+  margin-left: 50px;
+  font-size: 32px;
+  background-color: #4b0082;
+  color: #fff;
+  padding: 10px;
+  width: 93%;
+  border-radius: 4px;
+}
+
+#left-chk {
+  width: 50%;
+  padding: 50px;
+}
+
+.chk-img {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 8px;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.final-Amount{
+    box-shadow: 0 2px 5px #ccc;
+    padding: 15px;
+}
+
+.final-Amount h1{
+    font-size: 28px;
+}
+
+.value {
+  color: #009688;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-number {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+#right-chk {
+  width: 50%;
+  margin-left: 50px;
+  padding: 50px;
+}
+
+#order-btn {
+  padding: 10px 15px;
+  border: none;
+  background-color: #009688;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+/* ##############footer##########################  */
+
+.footer-container,
+.footer-div,
+.py-5 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer img {
+  width: 150px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
